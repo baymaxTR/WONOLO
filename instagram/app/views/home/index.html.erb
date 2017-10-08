@@ -1,0 +1,24 @@
+  <div class="row">
+  <h1>Instagram Lookup</h1>
+    <% for i in 0..@media_arr.count-1 %>
+      <div class="flexslider">
+        <ul class="slides">
+          <% @media_arr[i].each do |instagram| %>
+
+          <li>
+              <%= image_tag instagram.images.standard_resolution.url%>
+              <p class="flex-caption"><strong>User: </strong><%= instagram.user.username %></p>
+              <% if instagram.caption %>
+              <p class="flex-caption"><strong>Caption: </strong><%= instagram.caption.text %></p>
+              <% end %>
+          </li>
+          <% end %>
+
+        </ul>
+      </div>
+    <% end %>
+  </div>
+
+<div class="back">
+<%=link_to root_path do %><i class="fa fa-hand-o-left " aria-hidden="true"></i><% end %>
+</div>

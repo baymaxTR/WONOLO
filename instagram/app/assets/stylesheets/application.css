@@ -1,0 +1,175 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ *= require font-awesome
+ *= require flexslider
+ */
+
+#map {
+	width: 1300px;
+	height: 400px;
+	margin-top: 4em;
+	left: -23em;
+}
+
+footer{
+	background: #ffdc00;
+	color: black;
+	height: 80px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 20px;
+	line-height: 1px;
+	padding-right: 10em;
+}
+
+.fa.fa-facebook-square:hover{
+	color: #1F3A93;
+	background: white;
+}
+
+.fa.fa-youtube-square:hover{
+	color: #CC0000;
+	background: white;
+}
+
+.fa.fa-github-square:hover{
+	color: black;
+	background: white;
+}
+
+.fa.fa-twitter-square:hover{
+	color: #229ACC;
+	background: white;
+}
+
+.fa.fa-google:hover{
+	color: #CF3D2E;
+	background: white;
+}
+
+
+.container .icon a{
+	color: black;
+}
+
+.container .col-sm-6 ul{
+	margin-left: 23em;
+}
+
+.container .menu li{
+	 display: inline-block;
+}
+
+.col-sm-6 {
+	width: 100%;
+	bottom: 1em;
+	font-size: 12px;
+}
+
+.navbar-default .navbar-nav .welcome{
+	color: white;
+	margin-top: 18px;
+}
+
+.navbar-nav > li > .dropdown-menu{
+	background: white;
+	text-align: left;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	background: black;
+}
+
+.container .social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+
+.container .social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.fa.pull-left{
+	margin-top: -0.3em;
+	border-radius: 20px;
+}
+
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.flex-active-slide a{
+	color: black;
+}
+
+.btn{
+	font-size: 14px;
+}
+
+.btn-default{
+  background: #ffdc00;
+  border-radius: 4px;
+}
+
+.btn-default:hover{
+  background: #ffdc00;
+  opacity: .90;
+}
+
+.back{
+	float: left;
+	font-size: 20px;
+}
+
+.nav .open > a, .nav .open > a:hover{
+	background-color: black;
+}
+
+.open > .dropdown-menu > li >a{
+	color: black;
+}
+
+.dropdown-menu > li > a:hover{
+	background-color: black;
+	color: #ffdc00;
+}
+
+input{
+	color: black;
+}
+
